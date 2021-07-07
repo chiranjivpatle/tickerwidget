@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tickerwidget/static/css/main.8a82013f.chunk.css",
+    "main.js": "/tickerwidget/static/js/main.fca4114d.chunk.js",
+    "main.js.map": "/tickerwidget/static/js/main.fca4114d.chunk.js.map",
+    "runtime-main.js": "/tickerwidget/static/js/runtime-main.20b2cfaa.js",
+    "runtime-main.js.map": "/tickerwidget/static/js/runtime-main.20b2cfaa.js.map",
+    "static/js/2.cb20221b.chunk.js": "/tickerwidget/static/js/2.cb20221b.chunk.js",
+    "static/js/2.cb20221b.chunk.js.map": "/tickerwidget/static/js/2.cb20221b.chunk.js.map",
+    "static/js/3.fd6d69b1.chunk.js": "/tickerwidget/static/js/3.fd6d69b1.chunk.js",
+    "static/js/3.fd6d69b1.chunk.js.map": "/tickerwidget/static/js/3.fd6d69b1.chunk.js.map",
+    "index.html": "/tickerwidget/index.html",
+    "static/css/main.8a82013f.chunk.css.map": "/tickerwidget/static/css/main.8a82013f.chunk.css.map",
+    "static/js/2.cb20221b.chunk.js.LICENSE.txt": "/tickerwidget/static/js/2.cb20221b.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/tickerwidget/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.20b2cfaa.js",
+    "static/js/2.cb20221b.chunk.js",
+    "static/css/main.8a82013f.chunk.css",
+    "static/js/main.fca4114d.chunk.js"
+  ]
+}
