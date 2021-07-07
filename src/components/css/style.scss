@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (min-width: 200px) {
+h3 {
+    font-size: 1rem;
+    font-style: oblique;
+}
+h4 {
+    font-size: 0.85rem;
+    font-weight: 700;
+    font-style: oblique;
+}
+span {
+    color: brown;
+}
+.bigdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(180deg, rgb(180, 231, 114), rgb(224, 224, 70));
+    .all {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        figure {
+            height: 10rem;
+            width: 15rem;
+            @media screen and (min-width: 767px){
+                height: 12rem;
+                width: 18rem;
+            }
+            @media screen and (min-width: 1024px){
+                height: 15rem;
+                width: 25rem;
+            }
+            margin-bottom: 1rem;
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .symbol {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin: 0.5rem 0;
+            
+        }
+        .button {
+            display: flex;
+            justify-content: center;
+            button {
+                padding: 0.7rem 2.5rem;
+                margin-top: 0.5rem;
+                background-color: lavender;
+                border-radius: 5rem;
+                border: none;
+
+                &:hover {
+                    background-color: rgb(95, 219, 219);
+                    transition-delay: 0.15s;
+                }
+            }
+        }
+        
+    }
+}
+
+}

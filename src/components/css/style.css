@@ -1,0 +1,105 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (min-width: 200px) {
+  h3 {
+    font-size: 1rem;
+    font-style: oblique;
+  }
+  h4 {
+    font-size: 0.85rem;
+    font-weight: 700;
+    font-style: oblique;
+  }
+  span {
+    color: brown;
+  }
+  .bigdiv {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#b4e772), to(#e0e046));
+    background-image: linear-gradient(180deg, #b4e772, #e0e046);
+  }
+  .bigdiv .all {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bigdiv .all figure {
+    height: 10rem;
+    width: 15rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 200px) and (min-width: 767px) {
+  .bigdiv .all figure {
+    height: 12rem;
+    width: 18rem;
+  }
+}
+
+@media screen and (min-width: 200px) and (min-width: 1024px) {
+  .bigdiv .all figure {
+    height: 15rem;
+    width: 25rem;
+  }
+}
+
+@media screen and (min-width: 200px) {
+  .bigdiv .all figure img {
+    height: 100%;
+    width: 100%;
+  }
+  .bigdiv .all .symbol {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+  .bigdiv .all .button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bigdiv .all .button button {
+    padding: 0.7rem 2.5rem;
+    margin-top: 0.5rem;
+    background-color: lavender;
+    border-radius: 5rem;
+    border: none;
+  }
+  .bigdiv .all .button button:hover {
+    background-color: #5fdbdb;
+    -webkit-transition-delay: 0.15s;
+            transition-delay: 0.15s;
+  }
+}
+/*# sourceMappingURL=style.css.map */
